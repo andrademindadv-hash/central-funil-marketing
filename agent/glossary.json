@@ -1,0 +1,11 @@
+{
+  "Aging": "Dias desde a mudança de etapa, usando data de São Paulo.",
+  "Prioridade de hoje": "Aging 1–2d.",
+  "Backlog": "Aging 3+d.",
+  "Limiar": "Aging 6d.",
+  "Fora do SLA": "Status exato 7d; KPI consolidado 7+.",
+  "Crítico": "Aging 8+d.",
+  "Elevados": "Fila 6–7d.",
+  "eq": "Em Qualificação.",
+  "qual": "Qualificado."
+}

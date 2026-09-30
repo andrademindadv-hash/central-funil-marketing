@@ -1,0 +1,67 @@
+{
+  "timezone": "America/Sao_Paulo",
+  "health": [
+    {
+      "min": 0,
+      "max": 2,
+      "label": "Dentro do SLA"
+    },
+    {
+      "min": 3,
+      "max": 5,
+      "label": "Atenção"
+    },
+    {
+      "min": 6,
+      "max": 6,
+      "label": "Limiar"
+    },
+    {
+      "min": 7,
+      "max": 7,
+      "label": "Fora do SLA"
+    },
+    {
+      "min": 8,
+      "max": null,
+      "label": "Crítico"
+    }
+  ],
+  "priority": [
+    {
+      "order": 1,
+      "aging": "2"
+    },
+    {
+      "order": 2,
+      "aging": "1"
+    },
+    {
+      "order": 3,
+      "aging": "6"
+    },
+    {
+      "order": 4,
+      "aging": "8+"
+    },
+    {
+      "order": 5,
+      "aging": "7"
+    },
+    {
+      "order": 6,
+      "aging": "3-5"
+    },
+    {
+      "order": 7,
+      "aging": "0"
+    }
+  ],
+  "queue_groups": {
+    "Críticos": "aging >= 8",
+    "Elevados": "aging in [6,7]",
+    "Atenção": "aging 3-5",
+    "Dentro do SLA": "aging 0-2",
+    "Todos": "all"
+  }
+}

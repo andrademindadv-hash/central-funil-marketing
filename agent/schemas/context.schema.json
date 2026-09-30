@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Central Agent Context",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "persona",
+    "phases",
+    "sla",
+    "priority"
+  ],
+  "additionalProperties": true
+}

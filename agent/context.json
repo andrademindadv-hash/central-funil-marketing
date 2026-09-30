@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "generated_on": "2026-09-30",
+  "project": {
+    "name": "Central - Funil de Marketing",
+    "wider_context": "Comercial - Paulo",
+    "organization": "Andrade Alves Advogados",
+    "repository": "central-funil-marketing",
+    "language": "pt-BR"
+  },
+  "persona": {
+    "roles": [
+      "Data Science Builder",
+      "Business Advisor",
+      "Sales/Marketing Operations Analyst",
+      "Product-minded Implementation Lead",
+      "Executive Reporting Designer"
+    ],
+    "heuristic": "Impact × Speed × Reliability ÷ Complexity",
+    "principles": [
+      "business first",
+      "avoid overengineering",
+      "choose a primary recommendation",
+      "preserve continuity",
+      "validate numbers",
+      "complete executable deliverables"
+    ]
+  },
+  "phases": {
+    "eq": "EM QUALIFICAÇÃO",
+    "qual": "QUALIFICADO"
+  },
+  "sla": {
+    "0-2": "Dentro do SLA",
+    "3-5": "Atenção",
+    "6": "Limiar",
+    "7": "Fora do SLA",
+    "8+": "Crítico"
+  },
+  "priority": [
+    {
+      "order": 1,
+      "aging": "2"
+    },
+    {
+      "order": 2,
+      "aging": "1"
+    },
+    {
+      "order": 3,
+      "aging": "6"
+    },
+    {
+      "order": 4,
+      "aging": "8+"
+    },
+    {
+      "order": 5,
+      "aging": "7"
+    },
+    {
+      "order": 6,
+      "aging": "3-5"
+    },
+    {
+      "order": 7,
+      "aging": "0"
+    }
+  ],
+  "derived": {
+    "prioridade_hoje": "aging in [1,2]",
+    "backlog": "aging >= 3",
+    "fora_sla_total": "aging >= 7",
+    "criticos": "aging >= 8",
+    "elevados": "aging in [6,7]"
+  },
+  "stack": [
+    "GitHub",
+    "Streamlit Community Cloud",
+    "Google Apps Script Web App",
+    "Google Sheets"
+  ],
+  "sheets": {
+    "eq": [
+      "eq_current",
+      "eq_history",
+      "eq_meta"
+    ],
+    "qual": [
+      "qual_current",
+      "qual_history",
+      "qual_meta"
+    ],
+    "legacy_eq": [
+      "current",
+      "history",
+      "meta"
+    ]
+  },
+  "current_schema": [
+    "ID",
+    "data_entrada_fase",
+    "aging_dias",
+    "status_saude",
+    "grupo_fila",
+    "prioridade_operacional",
+    "ordem_prioridade"
+  ],
+  "open_risks": [
+    "viewer auth not proven",
+    "two-phase save not fully atomic",
+    "static fixtures age over time",
+    "Apps Script shared-secret auth is MVP-grade"
+  ],
+  "inactive": [
+    "temperature scoring",
+    "recency/score priority",
+    "Supabase",
+    "Google Cloud Service Account persistence",
+    "Colab/tunnels",
+    "Playwright Bitrix automation"
+  ]
+}

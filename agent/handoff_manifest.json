@@ -1,0 +1,11 @@
+{
+  "package": "Codex_Agent_Transfer_Comercial_Paulo_v1",
+  "version": "1.0.0",
+  "generated_on": "2026-09-30",
+  "target_repo": "central-funil-marketing",
+  "entrypoint": "AGENTS.md",
+  "current_state": "docs/agent/10_current_state.md",
+  "structured_context": "agent/context.json",
+  "decision_stream": "agent/decisions.jsonl",
+  "privacy": "client-level legal/medical/personal data and credentials intentionally excluded"
+}

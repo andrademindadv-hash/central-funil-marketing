@@ -1,0 +1,142 @@
+[
+  {
+    "path": ".agent/PLANS.md",
+    "bytes": 634,
+    "sha256": "8a6572cec812faf28c8e0fd34229150b7aa55f496e115fd97606891f019fa3c6"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 6299,
+    "sha256": "d657aa6aeef7bef459ee12d0a9aadc3a1252ba2fbd391464ebcf538d81bc95b9"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 86,
+    "sha256": "58f00e013a397b0e376a2ed8b21a2af3e7724b83791c274a44f66a22b8a0bb7a"
+  },
+  {
+    "path": "CODEX_BOOTSTRAP_PROMPT.md",
+    "bytes": 591,
+    "sha256": "00c054592650893cd577c7285bcd92c8f1d8115970141ee9c549c8bb6c118a30"
+  },
+  {
+    "path": "README_AGENT_SETUP.md",
+    "bytes": 1026,
+    "sha256": "ebb76d79fb44bab80159820f9692a8993108a44325be137a699186f1d3094d3e"
+  },
+  {
+    "path": "VERSION",
+    "bytes": 6,
+    "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+  },
+  {
+    "path": "agent/context.json",
+    "bytes": 2478,
+    "sha256": "5493f249e00b96e0590a2ea1e26b6149d6062ceedfa93271240c19d19f39e851"
+  },
+  {
+    "path": "agent/decisions.jsonl",
+    "bytes": 2614,
+    "sha256": "8cd61a486ac708452a505cce2356f262d128ebec8fa626a4900bd135a35b70a4"
+  },
+  {
+    "path": "agent/glossary.json",
+    "bytes": 340,
+    "sha256": "07a91b59cc261b1cfc39778ccef5fd12ac259f05d7157fd67e0b50cfb6b6a421"
+  },
+  {
+    "path": "agent/handoff_manifest.json",
+    "bytes": 427,
+    "sha256": "a5da078298f6a14c5f6215a56712dca0745671ccbc131d18e0bd993e2bfdd912"
+  },
+  {
+    "path": "agent/metrics.json",
+    "bytes": 967,
+    "sha256": "17f9504ee34b852b9711f3dced632e55e0252d302e259ecad8211699e80a3203"
+  },
+  {
+    "path": "agent/products.json",
+    "bytes": 1024,
+    "sha256": "656288942fe00a46ae25ad427a8d512f4795c327f76dc53f2537ab2b42f0cf8a"
+  },
+  {
+    "path": "agent/schemas/context.schema.json",
+    "bytes": 265,
+    "sha256": "24a905f54165d12cbe04db4145bc7bf2f2dfb324f3a8ba14b97d663451c93fab"
+  },
+  {
+    "path": "docs/agent/01_identity.md",
+    "bytes": 1099,
+    "sha256": "85c6ed23f7ed8b1bdb1d1727fd4f4ba207179800c5af5915f1cc6ec0d98aad8a"
+  },
+  {
+    "path": "docs/agent/02_business_context.md",
+    "bytes": 1374,
+    "sha256": "58ae0ff35a52b7fb825c9eb6378e4f9a18f55b57d3e58bb93ace2c742f34438c"
+  },
+  {
+    "path": "docs/agent/03_current_system.md",
+    "bytes": 898,
+    "sha256": "b3b172164d22369f9c25d8351195e937bf80d8e7396c0ed78c868e76cc0f738e"
+  },
+  {
+    "path": "docs/agent/04_data_contracts.md",
+    "bytes": 1294,
+    "sha256": "48c187d48526e99b17c4b82ed619cba83c617413e5fe633b03f948bd249e8081"
+  },
+  {
+    "path": "docs/agent/05_metrics_sla_priority.md",
+    "bytes": 750,
+    "sha256": "241429a0e9f9afd9b40de75c1bc1ea14bfe36d00e9fa2a9d7fdb5145b5469d8c"
+  },
+  {
+    "path": "docs/agent/06_ui_ux.md",
+    "bytes": 758,
+    "sha256": "ea04665a62aa5cc2103f20ea0035a5048452c7ffafcaec25af187765aeb91f81"
+  },
+  {
+    "path": "docs/agent/07_integrations_deployment.md",
+    "bytes": 1126,
+    "sha256": "049a3e7d2f511156b6c9e36dddbdadcebc1a0de51cb705a9fdfd91b5b87173bc"
+  },
+  {
+    "path": "docs/agent/08_decisions_failures.md",
+    "bytes": 1145,
+    "sha256": "0a07e11403319a9f753c6365a5e32ff32c5dbb6f329d749cd29a2326fcef882e"
+  },
+  {
+    "path": "docs/agent/09_testing_validation.md",
+    "bytes": 1010,
+    "sha256": "c0e1b856f3ce113894f0fa8264b0fa27f70e0563e6e73b8a3242b8f2f9a3a48d"
+  },
+  {
+    "path": "docs/agent/10_current_state.md",
+    "bytes": 1087,
+    "sha256": "5e97f50ceb2bba3fc0735090b2424a4054be915a880f433d413db835a23eed60"
+  },
+  {
+    "path": "docs/agent/11_product_inventory.md",
+    "bytes": 1283,
+    "sha256": "ce0de1c1b394ee4475e2e010dd84f7b355d1dcdbcff9e6bf97c379871f697a57"
+  },
+  {
+    "path": "docs/agent/12_examples.md",
+    "bytes": 1374,
+    "sha256": "78da38c86cfbe72bd47a5f1327246c25574e06c1e7b4f010e459f4b8291d3aec"
+  },
+  {
+    "path": "docs/agent/13_security_privacy.md",
+    "bytes": 783,
+    "sha256": "09562d42637768642ccc11fd1f764b399d58fd2eda0232c407cc2b65d900cd6d"
+  },
+  {
+    "path": "docs/agent/14_bitrix_manual_export.md",
+    "bytes": 624,
+    "sha256": "5f6235601c82bfaecd41a1bea539666abf1833e7a87d25e90b5ca8bb94b57919"
+  },
+  {
+    "path": "docs/agent/15_change_management.md",
+    "bytes": 666,
+    "sha256": "d53462ef8cb8449842396f75de88ce241b1c4d217e767d7b1e185b5716a67d70"
+  }
+]

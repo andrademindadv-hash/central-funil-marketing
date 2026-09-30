@@ -1,0 +1,15 @@
+{"date": "2026-09-23", "id": "temperature_removed", "status": "active", "decision": "Remove temperature/recency/score from current MVP priority.", "reason": "User explicitly returned to aging-based model."}
+{"date": "2026-09-28", "id": "apps_script_architecture", "status": "active", "decision": "Use Streamlit + Apps Script + Sheets.", "reason": "Avoid Google Cloud billing/prepayment and reduce infrastructure."}
+{"date": "2026-09-28", "id": "manual_bitrix_export", "status": "active", "decision": "Keep Bitrix export manual.", "reason": "Validate workflow before automating acquisition."}
+{"date": "2026-09-29", "id": "limiar_priority", "status": "active", "decision": "6d Limiar is third priority.", "reason": "Prevents next-day SLA breach."}
+{"date": "2026-09-29", "id": "dual_phase_same_link", "status": "active", "decision": "Em Qualificação and Qualificado share one Streamlit link with separate panels.", "reason": "Single entry point without mixing data."}
+{"date": "2026-09-29", "id": "no_combined_overview", "status": "active", "decision": "Defer cross-phase overview.", "reason": "Avoid premature complexity."}
+{"date": "2026-09-29", "id": "optional_phase_upload", "status": "active", "decision": "Allow one phase or both.", "reason": "Matches daily operation."}
+{"date": "2026-09-29", "id": "separate_phase_storage", "status": "active", "decision": "Use eq_* and qual_* tabs.", "reason": "Independent state/history."}
+{"date": "2026-09-29", "id": "native_metrics", "status": "active", "decision": "Prefer st.metric for primary KPIs.", "reason": "Rendering reliability."}
+{"date": "2026-09-29", "id": "same_day_history", "status": "active", "decision": "One snapshot per phase/day; rerun replaces.", "reason": "History is state, not volume."}
+{"date": "2026-09-29", "id": "outside_sla", "status": "active", "decision": "Executive outside-SLA is aging >= 7.", "reason": "Critical is also outside SLA."}
+{"date": "2026-09-29", "id": "service_account", "status": "superseded", "decision": "Do not use Google Cloud Service Account for MVP.", "reason": "Billing/prepayment friction."}
+{"date": "2026-09-29", "id": "supabase", "status": "not_selected", "decision": "Do not add Supabase now.", "reason": "No need justifies complexity."}
+{"date": "2026-09-29", "id": "playwright", "status": "paused", "decision": "Keep Playwright out of active production.", "reason": "Manual export remains explicit decision."}
+{"date": "2026-09-29", "id": "apps_script_identity", "status": "active", "decision": "Web App executing account must have Sheet access.", "reason": "Resolved cross-account permission failures."}

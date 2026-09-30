@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "products": [
+    {
+      "id": "central_funil",
+      "name": "Central · Funil de Marketing",
+      "status": "active",
+      "repo_scope": true,
+      "version_reference": "v1.4 dual-phase"
+    },
+    {
+      "id": "bitrix_playwright",
+      "name": "Bitrix Playwright Exporter",
+      "status": "prototype_paused",
+      "versions": [
+        "v0.1",
+        "v0.2",
+        "v0.3"
+      ]
+    },
+    {
+      "id": "central_ops_analytics",
+      "name": "Central Ops - Analytics / Funil de Marketing",
+      "status": "adjacent"
+    },
+    {
+      "id": "contratos_valor",
+      "name": "Central Ops - Contratos & Valor",
+      "status": "adjacent"
+    },
+    {
+      "id": "creative_testing",
+      "name": "Creative Testing Framework",
+      "status": "adjacent",
+      "layers": [
+        "Creative Priorization",
+        "Creative Testing",
+        "Winner Identification"
+      ]
+    },
+    {
+      "id": "pulso_15",
+      "name": "PULSO 15",
+      "status": "adjacent"
+    }
+  ]
+}
