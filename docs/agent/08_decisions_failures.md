@@ -13,6 +13,12 @@ Active decisions:
 - one daily snapshot per phase/day, same-day rerun replaces;
 - executive outside-SLA = 7+;
 - preserve stable URLs where possible.
+- keep the production Apps Script source versioned at `apps-script/Code.gs`;
+- render full phase panels only for a valid base; distinguish no-base state from backend load failure.
+
+Audit handling rule:
+- classify each divergence as a code bug, incorrect documentation or product decision before implementation;
+- document material product decisions in the same change.
 
 Superseded/not selected:
 - Google Cloud Service Account persistence: billing/prepayment friction conflicted with zero-cost MVP.

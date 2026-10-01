@@ -11,6 +11,7 @@ Conditional:
 - Fase
 
 If `Fase` exists, selected upload must actually contain the expected phase.
+Filter the expected phase before validating row-level IDs and dates. Rows from other phases do not invalidate the selected phase.
 
 ID rules:
 - cast to string;

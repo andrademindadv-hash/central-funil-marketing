@@ -31,7 +31,7 @@ One Streamlit app / one link with two independent phases:
 1. **EM QUALIFICAÇÃO** (`eq`)
 2. **QUALIFICADO** (`qual`)
 
-Each phase has its own current state, history, metadata, executive view, health view, audit queue and history view.
+Each phase has its own current state, history and metadata. With a valid current base, it shows its executive view, health view, audit queue and history view.
 
 The user may upload only Em Qualificação, only Qualificado, or both. Updating one phase must not alter the other.
 
@@ -72,6 +72,7 @@ Expected source fields:
 
 Rules:
 - IDs non-empty and unique within imported phase
+- when `Fase` exists, filter the selected phase before validating IDs and dates
 - stage-change date must parse
 - aging uses São Paulo calendar date
 - negative aging clips to 0
@@ -92,18 +93,22 @@ Google Sheets tabs:
 
 Legacy `current/history/meta` belong to Em Qualificação and v1.4 contains migration logic to `eq_*`.
 
+Versioned Apps Script source: `apps-script/Code.gs`.
+
 ## UI contract
 Same link with top-level tabs:
 - Em Qualificação
 - Qualificado
 
-Each phase contains:
+Each phase with a valid current base contains:
 - executive KPI area
 - Próxima Melhor Ação
 - Leitura Executiva
 - Saúde da fase
 - Fila de Auditoria
 - Histórico
+
+Without a saved base, show an explicit empty state. When backend loading fails, show an explicit backend error state and do not present it as an empty phase.
 
 Primary KPIs currently intended:
 - estoque atual
@@ -141,6 +146,8 @@ For any material change:
 5. validate syntax and business rules;
 6. state migration/deployment implications;
 7. update current-state/decision docs when rules or architecture change.
+
+When an audit reveals a divergence, classify it as a **code bug**, **incorrect documentation**, or **product decision** before modifying software. Record the product decision when it materially changes expected behavior.
 
 Never silently change SLA buckets, priority order, metric definitions, Sheet tab names, backend phase keys, upload semantics or same-day history replacement.
 

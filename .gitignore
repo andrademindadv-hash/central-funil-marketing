@@ -1,0 +1,22 @@
+# Segredos e credenciais locais
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+.clasp.json
+.clasprc.json
+credentials*.json
+service-account*.json
+token*.json
+
+# Exportações operacionais não devem ser versionadas
+*.csv
+*.xls
+*.xlsx
+!tests/fixtures/*.csv
+!tests/fixtures/*.xlsx
+
+# Artefatos Python e testes
+__pycache__/
+*.py[cod]
+.pytest_cache/

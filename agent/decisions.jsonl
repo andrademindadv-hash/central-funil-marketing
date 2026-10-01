@@ -13,3 +13,5 @@
 {"date": "2026-09-29", "id": "supabase", "status": "not_selected", "decision": "Do not add Supabase now.", "reason": "No need justifies complexity."}
 {"date": "2026-09-29", "id": "playwright", "status": "paused", "decision": "Keep Playwright out of active production.", "reason": "Manual export remains explicit decision."}
 {"date": "2026-09-29", "id": "apps_script_identity", "status": "active", "decision": "Web App executing account must have Sheet access.", "reason": "Resolved cross-account permission failures."}
+{"date": "2026-09-30", "id": "versioned_apps_script", "status": "active", "decision": "Version the production Apps Script source at apps-script/Code.gs.", "reason": "Keep load/save, phase storage, migration and same-day history behavior auditable and reproducible."}
+{"date": "2026-09-30", "id": "phase_view_states", "status": "active", "decision": "Render full phase panels only for valid data and distinguish empty state from backend error.", "reason": "Avoid presenting connectivity failures as phases without data."}

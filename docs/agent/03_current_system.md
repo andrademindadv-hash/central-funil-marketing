@@ -16,7 +16,7 @@ Streamlit reads current/history/meta
 Primary frontend: `streamlit_app.py`.
 Responsibilities: upload UI, parsing, validation, rules, backend calls, executive/health/queue/history rendering.
 
-Primary backend: `Code.gs`.
+Primary backend: `apps-script/Code.gs`.
 Responsibilities: shared-secret auth, phase config (`eq`/`qual`), `load`, `save`, same-day history replacement, persistence, legacy migration.
 
 Streamlit secrets:

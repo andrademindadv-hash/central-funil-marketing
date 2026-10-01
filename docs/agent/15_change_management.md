@@ -4,6 +4,8 @@ When a business rule changes, update implementation, tests, metrics doc, decisio
 
 When architecture changes, update current-system/integration/deployment docs and structured context.
 
+Before acting on an audit finding, classify the divergence as a code bug, incorrect documentation or product decision. Fix code bugs, correct documentation errors, and record material product decisions before changing behavior.
+
 Do not erase superseded approaches; record them as superseded/paused so the agent does not rediscover and re-propose them.
 
 Version complete user-visible packages. Historical reference versions:

@@ -80,6 +80,16 @@
     "Google Apps Script Web App",
     "Google Sheets"
   ],
+  "source_paths": {
+    "frontend": "streamlit_app.py",
+    "business_logic": "central_logic.py",
+    "apps_script_backend": "apps-script/Code.gs"
+  },
+  "ui_states": {
+    "ready": "render complete phase panel",
+    "empty": "show concise no-base state",
+    "backend_error": "show explicit load failure without rendering empty data"
+  },
   "sheets": {
     "eq": [
       "eq_current",

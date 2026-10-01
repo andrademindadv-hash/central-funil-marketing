@@ -1,4 +1,4 @@
-# Central Funil de Marketing — v1.4
+# Central Funil de Marketing — v1.5
 
 ## O que mudou
 
@@ -56,10 +56,12 @@ Se a versão anterior já tiver:
 
 o Apps Script migra automaticamente esses dados para `eq_*` na primeira leitura de Em Qualificação.
 
+O código-fonte versionado do backend está em [`apps-script/Code.gs`](apps-script/Code.gs).
+
 ## Atualização do ambiente existente
 
 1. Substitua `streamlit_app.py` no GitHub.
-2. Substitua o conteúdo do `Code.gs` no Apps Script.
+2. Substitua o conteúdo do editor do Apps Script por `apps-script/Code.gs`.
 3. Salve o Apps Script.
 4. Crie uma **nova versão da implantação** do Web App.
 5. Mantenha a mesma URL `/exec` quando possível.

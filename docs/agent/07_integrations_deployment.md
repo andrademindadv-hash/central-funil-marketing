@@ -7,6 +7,7 @@ Why Apps Script + Sheets:
 - adequate for current daily volume.
 
 Working Apps Script pattern:
+- versioned source: `apps-script/Code.gs`;
 - execute as deploying Google account;
 - that account must have Sheet edit access;
 - endpoint callable by Streamlit;
@@ -18,7 +19,7 @@ Observed failures:
 - HTTP 401 → Web App restricted to user/owner rather than callable by Streamlit.
 
 Deployment order for backend+frontend changes:
-1. update/save `Code.gs`;
+1. copy `apps-script/Code.gs` into the Apps Script project and save it;
 2. publish new Web App version;
 3. verify `/exec` health;
 4. confirm executing account's Sheet access;

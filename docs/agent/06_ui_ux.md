@@ -17,6 +17,8 @@ Prefer native `st.metric` for KPI reliability. Earlier custom metric-card HTML h
 
 One link, separate phase tabs. Do not merge phase stocks unless a dedicated cross-phase view is explicitly requested. A third Visão Geral was intentionally deferred.
 
+Render the complete KPI/action/health/queue/history panel only when the phase has a valid current base. A phase that has never been processed uses a concise empty state. A backend load failure uses a distinct explicit error state and must not be described as an empty phase.
+
 The operator must be able to see/copy/download IDs. Tables preserve exact health even when filter groups are broader.
 
 UI copy should explain consequence, especially 6-day Limiar and 1–2 day Prioridade de hoje.

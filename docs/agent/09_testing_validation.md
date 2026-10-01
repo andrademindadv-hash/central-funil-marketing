@@ -18,6 +18,8 @@ Data integrity tests:
 - duplicate ID
 - missing/invalid date
 - future date
+- mixed-phase file filters the selected phase before row validation
+- duplicate IDs outside the selected phase do not block its import
 
 Independence:
 - updating eq must not mutate qual current/history/meta and vice versa.
@@ -41,3 +43,6 @@ UI smoke:
 - both may be populated
 - correct per-phase timestamp
 - queue export works
+- Elevados orders 6d before 7d
+- Dentro do SLA orders 2d before 1d before 0d
+- no-base state and backend-error state remain distinct
